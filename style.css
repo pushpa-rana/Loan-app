@@ -1,0 +1,188 @@
+/* =========================================================
+   PAGE
+   ========================================================= */
+
+.stApp {
+    background: #f5f7fb;
+}
+
+
+/* =========================================================
+   HEADER
+   ========================================================= */
+
+.main-title {
+    text-align: center;
+    font-size: 42px;
+    font-weight: 700;
+    color: #172033;
+    margin-top: 20px;
+    margin-bottom: 8px;
+}
+
+.subtitle {
+    text-align: center;
+    font-size: 17px;
+    color: #64748b;
+    margin-bottom: 35px;
+}
+
+
+/* =========================================================
+   SECTION HEADINGS
+   ========================================================= */
+
+.section-title {
+    font-size: 23px;
+    font-weight: 700;
+    color: #172033;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+
+/* =========================================================
+   INPUT LABELS
+   ========================================================= */
+
+.stSelectbox label,
+.stNumberInput label {
+    color: #334155 !important;
+    font-size: 15px !important;
+    font-weight: 600 !important;
+}
+
+
+/* =========================================================
+   INPUT BOXES
+   ========================================================= */
+
+.stSelectbox > div > div,
+.stNumberInput > div > div > input {
+    border-radius: 9px !important;
+}
+
+
+/* =========================================================
+   REMOVE UNNECESSARY WHITE CARD EFFECT
+   ========================================================= */
+
+.info-card {
+    background: transparent;
+    padding: 0;
+    border: none;
+    box-shadow: none;
+    margin-bottom: 25px;
+}
+
+
+/* =========================================================
+   PREDICTION BUTTON
+   ========================================================= */
+
+.stButton {
+    margin-top: 20px;
+}
+
+.stButton > button {
+    width: 100%;
+    height: 55px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 700;
+    border: none;
+    background: #2563eb;
+    color: white;
+    transition: 0.2s;
+}
+
+.stButton > button:hover {
+    background: #1d4ed8;
+    color: white;
+}
+
+
+/* =========================================================
+   APPROVED RESULT
+   ========================================================= */
+
+.approved-card {
+    background: #ecfdf5;
+    border: 2px solid #10b981;
+    padding: 28px;
+    border-radius: 15px;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.approved-card .result-title {
+    color: #047857;
+}
+
+
+/* =========================================================
+   REJECTED RESULT
+   ========================================================= */
+
+.rejected-card {
+    background: #fef2f2;
+    border: 2px solid #ef4444;
+    padding: 28px;
+    border-radius: 15px;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.rejected-card .result-title {
+    color: #b91c1c;
+}
+
+
+/* =========================================================
+   RESULT TEXT
+   ========================================================= */
+
+.result-title {
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.probability {
+    font-size: 18px;
+    color: #334155;
+    margin-top: 10px;
+}
+
+
+/* =========================================================
+   FOOTER
+   ========================================================= */
+
+.footer {
+    text-align: center;
+    color: #64748b;
+    font-size: 13px;
+    margin-top: 45px;
+    padding-bottom: 20px;
+}
+.stMarkdown p,
+.stMarkdown li {
+    color: #334155 !important;
+}
+
+[data-testid="stMarkdownContainer"] p {
+    color: #334155 !important;
+}
+
+[data-testid="stAlert"] p {
+    color: #334155 !important;
+}
+
+[data-testid="stMetricValue"] {
+    color: #172033 !important;
+}
+
+[data-testid="stMetricLabel"] {
+    color: #475569 !important;
+}
